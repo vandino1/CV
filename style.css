@@ -380,6 +380,11 @@ article .icon {
   width: 90%;
   height: 90%;
 }
+.img-moto {
+  border-radius: 2rem;
+  width: 90%;
+  height: 295px;
+}
 
 .project-title {
   margin: 1rem;
