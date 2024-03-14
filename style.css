@@ -446,3 +446,37 @@ footer {
 footer p {
   text-align: center;
 }
+#top-btn.top-btn-is-visible {
+  visibility: visible;
+  opacity: 1;
+  }
+  
+  #top-btn {
+  opacity: 0;
+  z-index: 99;
+  right: 0.9rem;
+  width: 2.813rem;
+  bottom: 0.9rem;
+  height: 2.813rem;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  position: fixed;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(84, 136, 199);
+  line-height: 1.6;
+  font-size: 0.875rem;
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: 0.188rem;
+  }
+  
+  #top-btn {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  }
+  #top-btn:hover {
+    background-color: rgb(85, 85, 85);
+  }
